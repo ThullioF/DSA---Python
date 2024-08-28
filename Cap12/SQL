@@ -1,0 +1,27 @@
+A Linguagem SQL consiste em várias instruções, que podem ser agrupadas nas seguintes categorias:
+
+1-DDL (Data Definition Language)-define e gerencia a estrutura de tabelas e objetos do banco de dados:
+•CREATE: cria uma novatabela ou objeto no banco de dados.
+•ALTER: modifica uma tabela ou objeto existente.•DROP: exclui uma tabela ou objeto existente.
+
+2-DML (Data Manipulation Language) -manipula os dados armazenados nas tabelas:
+•SELECT: recupera dados de uma ou mais tabelas.•INSERT: insere novos registros em uma tabela.
+•UPDATE: atualiza registros existentes em uma tabela.•DELETE: exclui registros de uma tabela.
+
+3-DCL (Data Control Language) -gerencia permissões e controle de acesso aos objetos do banco de dados:
+•GRANT: concede permissões a usuários ou grupos para acessar e manipular objetos do banco de dados.
+•REVOKE: remove permissões concedidas anteriormente.
+
+4-TCL (Transaction Control Language)-gerencia transações no banco de dados:
+•BEGIN TRANSACTION: inicia uma nova transação.
+•COMMIT: salva todas as alterações feitas na transação atual.
+•ROLLBACK: desfaz as alterações feitas na transação atual.
+•SAVEPOINT:  cria  um  ponto  de  salvamento  na  transação  atual,  permitindo  que  você reverta para esse ponto, se necessário.
+
+Os SGBDs fornecem uma interface entre os usuários e os dados armazenados, permitindo a realização de diversas operações, como:
+•Criação e modificação de estruturas de dados (tabelas, índices, etc...).
+•Inserção, atualização e exclusão de dados.•Realização de consultas e recuperação de informações.
+•Controle de acesso e segurança, garantindo que apenas usuários autorizados possam acessar e modificar os dados.
+•Garantia de integridade e consistência dos dados.
+•Otimização de consultas e melhoria do desempenho do banco de dados.
+•Recuperação de falhas e realização de backups.
